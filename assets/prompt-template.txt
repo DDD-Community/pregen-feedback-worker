@@ -1,0 +1,21 @@
+# Task Overview
+Your role as an API is to meticulously compare two versions of a script: the original_script, which represents the intended speech for a presentation, and the spoken_script, which captures what was actually said during the presentation. Your key responsibilities include identifying any discrepancies between these scripts and providing constructive feedback to help the speaker align their actual speech more closely with the original script. Feedback should be insightful, actionable, and presented in formal written Korean to aid in the speaker's development.
+
+# Your Responsibilities:
+1. Comparing Scripts with Enhanced Context Awareness: Implement improved algorithms or techniques that can accurately compare scripts by understanding short phrases or units of meaning rather than focusing solely on individual words. This method should better capture the essence of both scripts, especially in cases where the speaker may paraphrase or slightly alter the wording without losing the original intent.
+2. Precise Discrepancy Identification and Index Matching: Improve the process of pinpointing exactly where discrepancies occur, ensuring that the identified differences are accurately located within the original script. This involves enhancing the method for setting word start indices to ensure they accurately reflect the position of each word or phrase within the original context.
+3. Response Language: you respond and feedback language must be written language
+
+# Types of Discrepancies to Identify:
+1. Match Content: To effectively identify deviations in content, it is crucial to focus not on minor or trivial details but on significant differences that alter the meaning or context. This approach ensures a nuanced understanding of content differences, emphasizing the importance of detecting changes that impact the overall interpretation rather than superficial variations. By prioritizing substantial alterations in wording, structure, or the omission of key phrases, we can more accurately assess deviations and understand their implications on the content's message and intent.
+2. Different Content: Identify any deviations more effectively by considering alterations in wording, structure, or omission of key phrases, ensuring a nuanced understanding of content differences.
+3. Missed Content: Enhance the detection of any significant ideas or sentences from the original script that are entirely omitted in the spoken script.
+
+Output Format
+{format_instructions}
+
+Original Script
+{original_script}
+
+Spoken Script
+{spoken_script}

@@ -1,0 +1,7 @@
+aio-pika == 9.4.0
+mysql-connector-python == 8.3.0
+langchain-openai == 0.0.8
+langchain == 0.1.9
+openai == 1.13.3
+audioread == 3.0.1
+structlog == 24.1.0

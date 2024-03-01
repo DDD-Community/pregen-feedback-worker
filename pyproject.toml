@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pregen-worker"
+description = "Pregen Feedback Generator"
+dynamic = ["version"]
+requires-python = ">= 3.11"
+authors = [
+    {name = "Kijun Kwon", email = "kkjsw17@naver.com"}
+]
+maintainers = [
+    {name = "Kijun Kwon", email = "kkjsw17@naver.com"}
+]
+readme = "README.md"
+
+[tool.hatch.version]
+path = "pregen/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["pregen"]
